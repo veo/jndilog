@@ -10,7 +10,7 @@ func main() {
 	// send ldap://127.0.0.1:33333/randomstr  or rmi://127.0.0.1:33333/randomstr POC
 	for {
 		if jndilog.Jndilogchek("randomstr") {
-			fmt.Println("randomstr JNDI RCE")
+			fmt.Println("get randomstr JNDI connect")
 			break
 		}
 	}
